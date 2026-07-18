@@ -97,6 +97,19 @@ outputs/gradient/
 └── radius_curve.png
 ```
 
+### Target Types
+
+The `--target` option specifies a target generator, not an image file.
+
+Supported targets:
+
+- flat
+- geometry
+- gradient
+- noise
+
+Each generator creates a deterministic target image　from the given random seed.
+
 ## Targetを比較する
 
 ```bash
