@@ -146,6 +146,19 @@ noise
 
 です。
 
+```text
+Termination
+
+1. Search Termination
+   (Greedy)
+
+2. Episode Termination
+   (Environment)
+
+3. Policy Termination
+   (Future Work)
+```
+
 詳細は[`docs/termination-design.md`](docs/termination-design.md)を参照してください。
 
 ## 評価指標
